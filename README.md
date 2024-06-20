@@ -1,5 +1,5 @@
 # Spaudio: Spatial Audio Simulation Tool
-SPAudio is a Python application designed to simulate spatial audio effects in a virtual 3D room environment. By leveraging the power of Pyroomacoustics and Pydub, SPAudio provides users with the ability to create realistic acoustic simulations, ideal for research, audio engineering, and immersive sound design.
+Spaudio is a Python application designed to simulate spatial audio effects in a virtual 3D room environment. By leveraging the power of Pyroomacoustics and Pydub, SPAudio provides users with the ability to create realistic acoustic simulations, ideal for research, audio engineering, and immersive sound design.
 
 ## Features
 
@@ -70,4 +70,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Pyroomacoustics: https://github.com/LCAV/pyroomacoustics
 - Pydub: https://github.com/jiaaro/pydub
 
-Enjoy creating immersive audio experiences with SPAudio!
+Enjoy creating immersive audio experiences with Spaudio!
