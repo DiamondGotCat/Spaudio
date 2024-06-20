@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 ### Usage
 
-To run SPAudio, use the following command:
+To run Spaudio, use the following command:
 
 ```bash
 python spaudio.py <audio_file> [--output_file <output_file>]
