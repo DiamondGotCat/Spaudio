@@ -16,6 +16,7 @@ Before you begin, ensure you have met the following requirements:
 - Python 3.x
 - Pyroomacoustics
 - Pydub
+- ffmpeg (for Pydub)
 
 ### Installation
 
