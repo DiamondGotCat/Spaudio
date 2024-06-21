@@ -33,7 +33,7 @@ pip install -r requirements.txt
 To run Spaudio, use the following command:
 
 ```bash
-python spaudio.py <audio_file> [--output_file <output_file>] [--room_dim <room_dim>] [--source_position <source_position>]
+python spaudio.py <audio_file> [--output_file <output_file>] [--room_dim <x> <y> <z>] [--source_position <x> <y> <z>]
 ```
 
 - `<audio_file>`: Path to the input audio file.
