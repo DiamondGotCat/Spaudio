@@ -38,6 +38,8 @@ python spaudio.py <audio_file> [--output_file <output_file>] [--room_dim <x> <y>
 
 - `<audio_file>`: Path to the input audio file.
 - `--output_file <output_file>`: (Optional) Path to save the output audio file.
+- `--room_dim <x> <y> <z>`: (Optional) Room dimensions.
+- `--source_position <x> <y> <z>`: (Optional) Source position.
 
 ### Example
 
