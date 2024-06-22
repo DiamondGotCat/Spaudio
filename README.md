@@ -17,7 +17,7 @@ You can experience 3D audio to a reasonable degree while maintaining compatibili
 
 ### Stereo mode
 
-It gives you the experience of having a privileged seat in front of a high-quality TV, but only if it supports stereo.
+It gives you the experience of having a privileged seat in front of a high-quality TV, but the audio files must be stereo compatible.
 
 ## Getting Started
 
