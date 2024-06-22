@@ -40,6 +40,7 @@ python spaudio.py <audio_file> [--output_file <output_file>] [--room_dim <x> <y>
 - `--output_file <output_file>`: (Optional) Path to save the output audio file.
 - `--room_dim <x> <y> <z>`: (Optional) Room dimensions.
 - `--source_position <x> <y> <z>`: (Optional) Source position.
+- `--source_position <x> <y> <z> <x2> <y2> <z2>`: (Optional) Source position for stereo-mode.
 
 **(Replacing spaudio.py with spaudio-stereo.py will improve the sound quality)**
 
