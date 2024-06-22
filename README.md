@@ -41,21 +41,23 @@ python spaudio.py <audio_file> [--output_file <output_file>] [--room_dim <x> <y>
 - `--room_dim <x> <y> <z>`: (Optional) Room dimensions.
 - `--source_position <x> <y> <z>`: (Optional) Source position.
 
+**(Replacing spaudio.py with spaudio-stereo.py will improve the sound quality)**
+
 ### Example
 
-Simulate an audio file and play it back:
+**Simulate an audio file and play it back:**
 
 ```bash
 python spaudio.py input.wav
 ```
 
-Simulate an audio file and save the output:
+**Simulate an audio file and save the output:**
 
 ```bash
 python spaudio.py input.wav --output_file output.wav
 ```
 
-(Replacing spaudio.py with spaudio-stereo.py will improve the sound quality)
+**(Replacing spaudio.py with spaudio-stereo.py will improve the sound quality)**
 
 ## Code Explanation
 
