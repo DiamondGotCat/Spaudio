@@ -23,8 +23,8 @@ def add_sources_to_room(room, audio_data, source_positions):
 
 def add_microphones_to_room(room):
     mic_positions = np.array([
-        [4.5, 1.0, 1.5],
-        [4.5, 3.0, 1.5]
+        [4.5, 0.5, 1.5],
+        [4.5, 3.5, 1.5]
     ]).T
     mic_array = pra.MicrophoneArray(mic_positions, room.fs)
     room.add_microphone_array(mic_array)
