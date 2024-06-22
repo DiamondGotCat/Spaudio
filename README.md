@@ -62,7 +62,8 @@ python spaudio.py input.wav --output_file output.wav
 
 ## Default
 ![スクリーンショット 2024-06-23 5 06 19](https://github.com/DiamondGotCat/Spaudio/assets/124330624/9cce371a-a00e-43c3-8f5d-ce2a0170b80b)
-(Triangle: Speaker ,Circle: Microphone)
+
+**(Triangle: Speaker ,Circle: Microphone)**
 
 ## Code Explanation
 
