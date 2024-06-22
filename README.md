@@ -8,6 +8,19 @@ Spaudio is a Python application designed to simulate spatial audio effects in a 
 - **Multiple Sources and Microphones**: Add multiple sound sources and microphones to capture the spatial audio effect.
 - **Audio Output**: Save the simulated audio to a file or play it directly through your speakers.
 
+## About default settings
+Please use headphones/earphones.
+
+### Normal mode
+
+You can experience 3D audio to a reasonable degree while maintaining compatibility.
+
+### Stereo mode
+
+It gives you the experience of having a privileged seat in front of a high-quality TV, but only if it supports stereo.
+
+Cannot be used when monaural.
+
 ## Getting Started
 
 ### Prerequisites
