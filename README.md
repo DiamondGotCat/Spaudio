@@ -60,6 +60,10 @@ python spaudio.py input.wav --output_file output.wav
 
 **(Replacing spaudio.py with spaudio-stereo.py will improve the sound quality)**
 
+## Default
+![スクリーンショット 2024-06-23 5 06 19](https://github.com/DiamondGotCat/Spaudio/assets/124330624/9cce371a-a00e-43c3-8f5d-ce2a0170b80b)
+(Triangle: Speaker ,Circle: Microphone)
+
 ## Code Explanation
 
 1. **Loading Audio**: The script loads the input audio file using Pydub and extracts the audio data and sample rate.
