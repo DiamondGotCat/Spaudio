@@ -55,6 +55,8 @@ Simulate an audio file and save the output:
 python spaudio.py input.wav --output_file output.wav
 ```
 
+(Replacing spaudio.py with spaudio-stereo.py will improve the sound quality)
+
 ## Code Explanation
 
 1. **Loading Audio**: The script loads the input audio file using Pydub and extracts the audio data and sample rate.
