@@ -19,8 +19,6 @@ You can experience 3D audio to a reasonable degree while maintaining compatibili
 
 It gives you the experience of having a privileged seat in front of a high-quality TV, but only if it supports stereo.
 
-Cannot be used when monaural.
-
 ## Getting Started
 
 ### Prerequisites
