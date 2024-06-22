@@ -48,7 +48,7 @@ def main():
     parser.add_argument("audio_file", type=str, help="Path to the input audio file")
     parser.add_argument("--output_file", type=str, help="Path to save the output audio file", default=None)
     parser.add_argument("--room_dim", type=float, nargs=3, default=[5.0, 4.0, 3.0], help="Dimensions of the room [x, y, z]")
-    parser.add_argument("--source_positions", type=float, nargs='+', default=[2.0, 1.0, 1.5, 3.0, 3.0, 1.5], help="Positions of the audio sources [x1, y1, z1, x2, y2, z2]")
+    parser.add_argument("--source_positions", type=float, nargs='+', default=[3.0, 1.0, 1.5, 3.0, 3.0, 1.5], help="Positions of the audio sources [x1, y1, z1, x2, y2, z2]")
     args = parser.parse_args()
 
     try:
