@@ -72,9 +72,10 @@ python spaudio.py input.wav --output_file output.wav
 **(Replacing spaudio.py with spaudio-stereo.py will improve the sound quality)**
 
 ## Default
-![スクリーンショット 2024-06-23 5 06 19](https://github.com/DiamondGotCat/Spaudio/assets/124330624/9cce371a-a00e-43c3-8f5d-ce2a0170b80b)
+![スクリーンショット 2024-06-23 21 16 58](https://github.com/DiamondGotCat/Spaudio/assets/124330624/bd20b0fc-9a7e-4f2f-9b3d-733236d6ed44)
 
-**(Triangle: Speaker ,Circle: Microphone)**
+
+**(Square: Speaker ,Circle: Microphone)**
 
 ## Code Explanation
 
