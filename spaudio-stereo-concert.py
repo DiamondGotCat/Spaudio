@@ -18,7 +18,7 @@ def load_audio_file(audio_file_path):
 
 def create_room(room_dim, sample_rate):
     # コンサートホールのような設定に変更
-    room = pra.ShoeBox(room_dim, fs=sample_rate, max_order=10, absorption=0.2)
+    room = pra.ShoeBox(room_dim, fs=sample_rate, max_order=20, absorption=0.1)
     return room
 
 def add_sources_to_room(room, audio_data, source_positions):
@@ -27,9 +27,10 @@ def add_sources_to_room(room, audio_data, source_positions):
         room.add_source(pos, signal=channel)
 
 def add_microphones_to_room(room):
+    # マイク位置をホールの中央に設定
     mic_positions = np.array([
-        [4.5, 1.75, 1.5],
-        [4.5, 2.25, 1.5]
+        [10.0, 7.5, 1.5],
+        [10.0, 7.7, 1.5]
     ]).T
     mic_array = pra.MicrophoneArray(mic_positions, room.fs)
     room.add_microphone_array(mic_array)
@@ -52,8 +53,8 @@ def main():
     parser = argparse.ArgumentParser(description="spaudio")
     parser.add_argument("audio_file", type=str, help="Path to the input audio file")
     parser.add_argument("--output_file", type=str, help="Path to save the output audio file", default=None)
-    parser.add_argument("--room_dim", type=float, nargs=3, default=[20.0, 15.0, 10.0], help="Dimensions of the room [x, y, z]")
-    parser.add_argument("--source_positions", type=float, nargs='+', default=[5, 2.75, 1.5, 5, 1.25, 1.5], help="Positions of the audio sources [x1, y1, z1, x2, y2, z2]")
+    parser.add_argument("--room_dim", type=float, nargs=3, default=[30.0, 20.0, 15.0], help="Dimensions of the room [x, y, z]")
+    parser.add_argument("--source_positions", type=float, nargs='+', default=[15, 10, 1.5, 15, 9, 1.5], help="Positions of the audio sources [x1, y1, z1, x2, y2, z2]")
     args = parser.parse_args()
 
     try:
